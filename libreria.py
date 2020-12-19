@@ -1,4 +1,3 @@
-PUNTOS ="\p{Punct}"
 SIMBOLOS = "([^(\\s)ñ(\\w)]|)"
 TILDE_A="[áàä]"
 TILDE_E="[éèë]"
