@@ -3,6 +3,7 @@ from tkinter.filedialog import askopenfilename
 import tkinter as tk
 from tkinter import ttk
 from stemming import *
+from collections import Counter
 class ventana:
 
     def __init__(self):  
@@ -37,12 +38,9 @@ class ventana:
         self.masRepetidas()
     
     def masRepetidas(self):
-        palabras=[]
-        repeticiones=[]
-        print(self.listaPalabras)
-        #for i in range(0,self.listaPalabras):
-            
-    
+        self.frecuencia = Counter(self.listaPalabras)
+        print(self.frecuencia)
+ 
 
 new = ventana()
 new.masRepetidas()
