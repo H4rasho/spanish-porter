@@ -1,3 +1,5 @@
+#libreia con todas las expersiones regulares
+
 SIMBOLOS = "([^(\\s)ñ(\\w)]|)"
 TILDE_A="[áàä]"
 TILDE_E="[éèë]"
@@ -9,12 +11,12 @@ ALFABETO ="(a-z)"
 ALFABETO_SUFIJOS ="[a-z]"
 DIGITOS ="\\d"
 #prefijos
-PREFIJO1 =ESPACIO+"a[n*]?"+ALFABETO+"*"
-PREFIJO2 =ESPACIO+"bi[s*]?"+ALFABETO+"*"
-PREFIJO3 =ESPACIO+"ant[ei]"+ALFABETO+"*"
+PREFIJO1 =ESPACIO+"ant[ei]"+ALFABETO+"*"
+PREFIJO2 =ESPACIO+"a[n*]?"+ALFABETO+"*"
+PREFIJO3 =ESPACIO+"bi[s*]?"+ALFABETO+"*"
 PREFIJO4 =ESPACIO+"co[n*]?"+ALFABETO+"*"
-PREFIJO5 =ESPACIO+"en"+ALFABETO+"*"
-PREFIJO6 =ESPACIO+"entre?"+ALFABETO+"*"
+PREFIJO5 =ESPACIO+"entre?"+ALFABETO+"*"
+PREFIJO6 =ESPACIO+"en"+ALFABETO+"*"
 PREFIJO7 =ESPACIO+"(extra)"+ALFABETO+"*"
 PREFIJO8 =ESPACIO+"(ex)"+ALFABETO+"*"
 PREFIJO9 =ESPACIO+"hip(er)"+ALFABETO+"*"
